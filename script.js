@@ -80,7 +80,7 @@ function renderGrid(data, category) {
 
         if (item.headshots >= 100 && item.special_1 && item.special_2 && item.gold) {
             const overlay = document.createElement('img');
-            overlay.src = '/img/done.webp';
+            overlay.src = 'https://raw.githubusercontent.com/JohnCarsonCodes/cod-weapons/refs/heads/main/img/done.webp';
             overlay.classList.add('overlay');
             overlay.style.position = 'absolute';
             overlay.style.top = '0';
